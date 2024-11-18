@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  height: 55px;
+  /* background-color: #091b3e; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen";
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* search bar in middle of header */
+.search {
+  position: absolute;
+  left: 50%;
+  width: 33%;
+  height: 60%;
+  transform: translateX(-50%);
+}
+
+/* style to ensure the menu bar appears on the right side of the header  */
+.menu {
+  position: absolute;
+  right: 20px;
+  width: 40px;
+}
+
+.routesList {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  gap: 20px;
+  padding-left: 30px;
+}
+
+.routesList li {
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.routesList li:hover {
+  color: white;
+}
+
+.routesList li a {
+  color: rgb(58, 110, 143);
+  text-decoration: none;
+}
+
+.routesList li a:hover {
+  color: rgb(1, 16, 35);
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+}
+
+.title a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 100%;
+  height: 40px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,89 @@
+.Home-DataTable .p-datatable-wrapper {    
+  /* background-color: red; */
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.Home-DataTable .p-datatable {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+
+.Home-DataTable .p-datatable-head{
+  display: flex;
+  flex-direction: row; /* Ensure the header is laid out in a row */
+  width: 100%;
+  /* background-color: red!important; */
+}
+.Home-DataTable .p-datatable-thead	> tr > th {
+  display: flex;
+  flex-direction: row; /* Ensure the header is laid out in a row */
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.Home-DataTable .p-datatable-thead > tr {
+  display: flex;
+  flex-direction: row; /* Ensure the `tr` is laid out in a row */
+  width: 100%;
+}
+
+.Home-DataTable .p-datatable-table{      
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.Home-DataTable .p-datatable-tbody {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.Home-DataTable .p-datatable-tbody > tr {
+  display: flex;
+  flex-direction: row; /* Ensure the `tr` is laid out in a row */
+  width: 100%;
+}
+
+.Home-DataTable .p-datatable-tbody > tr > td {
+  display: flex;
+  flex: 1; /* Ensure each cell takes up an equal amount of space */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  overflow: hidden; /* Hide overflow content if needed */
+}
+
+
+/* ::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 6px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1755A5;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6C757D; 
+  border-radius: 6px;
+} */
+ 

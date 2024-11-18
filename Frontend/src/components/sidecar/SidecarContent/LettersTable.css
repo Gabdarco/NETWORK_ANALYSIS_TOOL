@@ -1,0 +1,45 @@
+.p-paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .p-paginator .p-paginator-pages {
+    display: flex;
+    gap: 8px;
+  }
+  .p-paginator-element {
+    margin: 0 5px; /* Adjust the spacing as needed */
+  }
+  
+  .p-paginator .p-paginator-next,
+  .p-paginator .p-paginator-prev {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; /* Ensure they don't take up unnecessary space */
+  }
+
+  .custom-datatable .p-datatable-thead > tr > th {
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.custom-datatable .p-datatable-thead > tr > th:hover {
+    /* background-color: #1755A5; 
+    color: #000;  */
+}
+
+
+
+/* .custom-datatable .p-datatable-thead > tr > th.p-highlight .p-sortable-column-icon {
+    color: #ffcc00; 
+} */
+
+/* Optionally, change the background color of the header when sorted */
+.custom-datatable .p-datatable-thead > tr > th.p-highlight {
+    /* background-color: #dbd7c4; 
+    color: #000;  */
+}
+
+

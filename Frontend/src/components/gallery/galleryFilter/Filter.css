@@ -1,0 +1,91 @@
+/* Filter.css */
+
+/* Container for the filter component */
+
+/* Styling for the MultiSelect component */
+.filter.p-multiselect {
+  width: 15%;
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px;
+
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Styling for the MultiSelect dropdown */
+.filter.p-multiselect-panel {
+  position: absolute;
+  width: 100%;
+  border-radius: 8px;
+  max-width: 300px;
+  max-height: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0e0e0;
+}
+
+/* Fixing the stretched x button issue */
+.filter.p-multiselect-token {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter.p-multiselect-token .p-multiselect-token-icon {
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+/* Styling for individual options */
+.filter.p-multiselect-item {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.filter.p-multiselect-item:last-child {
+  border-bottom: none;
+}
+
+/* Add some hover effects */
+.filter.p-multiselect-item:hover {
+  background-color: #e0f7fa;
+}
+
+/* Optional: Styling for the search input within the MultiSelect */
+.filter.p-multiselect-filter {
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Add hover and focus effects for the search input */
+.filter.p-multiselect-filter:hover,
+.filter.p-multiselect-filter:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: #b0bec5;
+}
+
+/* Close button styling */
+.filter.filter-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.filter.filter-close-btn:hover {
+  color: #ff5252;
+}

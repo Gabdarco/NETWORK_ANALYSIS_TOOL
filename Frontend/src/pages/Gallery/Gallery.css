@@ -1,0 +1,111 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 8px;
+}
+
+.title-container {
+  background-color: transparent;
+}
+
+.gallery-item {
+  display: flex;
+  align-items: center;
+  /* Center items vertically */
+  justify-content: center;
+  /* Center items horizontally */
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 350px;
+  /* Increased width */
+  height: 200px;
+  /* Increased height */
+  cursor: pointer;
+  /* background-color: white; */
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Ensure the card takes the full height */
+  width: 100%;
+  /* Ensure the card takes the full width */
+}
+
+.gallery-text {
+  text-align: center;
+  /* Center text inside the gallery-text div */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center text vertically */
+  align-items: center;
+  /* Center text horizontally */
+}
+
+.gallery-item img {
+  position: relative;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 50%;
+  height: 150px;
+  /* Adjusted height */
+  object-fit: cover;
+}
+
+.gallery-title {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: wrap;
+}
+
+.gallery-subtitle {
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.gallery-bio {
+  font-size: 12px;
+  overflow-y: auto;
+  max-height: 100px;
+}
+
+.p-card-body {
+  padding: 5px;
+}
+
+.p-card-content {
+  display: flex;
+  align-items: start;
+  padding: 10px;
+}
+
+.tabview-custom {
+  width: 100vw;
+  margin: 0 auto;
+  /* Center the TabView */
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.tabview-custom .p-tabview-panel {
+  width: 100%;
+  /* Adjust this value as needed */
+}
+
+.tabview-custom .p-tabview-nav li a .pi {
+  margin-right: 8px; /* Adjust the value as needed */
+}

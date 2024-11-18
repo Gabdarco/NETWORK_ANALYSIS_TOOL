@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .sigma-container {
+    width: 100%;
+    height: 90vh; /* Adjust height as needed */
+    border-radius: 8px;
+  }
+  
+  .sigma-container .node {
+    color: #00ffff; /* Node color */
+  }
+  
+  .sigma-container .edge {
+    color: rgba(255, 255, 255, 0.1); /* Edge color with low opacity */
+  }
+  
+  input[type="checkbox"] {
+    accent-color: #f11946;
+    margin-right: 5px;
+  }
+  
+  label {
+    color: #ccc;
+  }
+  

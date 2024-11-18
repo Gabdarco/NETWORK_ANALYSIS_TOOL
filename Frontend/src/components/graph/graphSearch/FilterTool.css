@@ -1,0 +1,42 @@
+.p-autocomplete-multiple-container {
+  min-width: 400px !important;
+  max-width: 400px !important;
+  margin-bottom: 10px;
+  overflow: auto !important;
+  max-height: 300px !important;
+}
+
+.button {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.results {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: center;
+  width: 25%;
+  height: 50%;
+  overflow: auto;
+}
+
+.results h4 {
+  font-size: 1.8em; /* Make the title text bigger */
+  margin-bottom: 10px; /* Add some space below the title */
+}
+
+.results ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+.results li {
+  font-size: 1em; /* Default size for list items */
+  margin-bottom: 5px; /* Add some space between list items */
+}
+
+.p-card-title {
+  font-size: 2.5em;
+}

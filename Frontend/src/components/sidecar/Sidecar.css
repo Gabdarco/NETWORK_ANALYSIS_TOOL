@@ -1,0 +1,117 @@
+
+@layer bootstrap-reboot, primereact;
+@import 'primeflex/primeflex.css';
+
+
+.custom-paginator .p-paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-paginator .p-paginator .p-paginator-current {
+    margin-right: auto;
+  }
+  
+  .custom-paginator .p-paginator .p-paginator-pages {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .custom-paginator .p-paginator .p-paginator-element {
+    display: inline-flex;
+    align-items: center;
+  }
+
+
+
+
+.sidecar{
+    /* background-color: #343540; */
+    /* border: 3px solid #343540;  */
+  padding: 20px;
+  border-radius: 25px;
+  /* color: #000000;  */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
+.sidecar, .sidecar * {
+    font-family: 'Gentium Book Plus';
+  } */
+
+.sidecar .p-tabview-nav-link {
+  /* color: #000000;  */
+  /* background-color: #1755A5 !important; */
+  /* border-top: 3px solid #b19df7;
+  border-left: 3px solid #b19df7;
+  border-right: 3px solid #b19df7; */
+  /* background-color: #343540; */
+  font-family: 'Gentium Book Plus';
+
+
+  padding: 0.5rem 1rem;
+  margin-right: 5px;
+  font-size: large;
+  text-decoration: none;
+  height: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  /* max-height: 35px;
+}
+
+.sidecar .p-tabview-nav-link:hover {
+  /* background-color: #c4d7f2 !important;
+  color: #fff; */
+}
+.sidecar .p-tabview {
+  height: 100%;
+  
+}
+
+.sidecar .p-tabview .p-tabview-panels {
+    height: calc(100% - 40px); /* Adjusted height to account for header, padding, etc. */
+    border: 3px solid #fff;
+    /* background-color: #fff; */
+        /* background-color: #343540; */
+
+    flex-grow: 1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* color:#000000; */
+  
+
+}
+
+.sidecar .p-tabview .p-tabview-panels .p-tabview-panel {
+  height: 100%; /* Adjusted height to account for header, padding, etc. */
+  /* background-color: green; */
+  flex-grow: 1;
+  overflow: auto;
+
+  /* color:#000000; */
+
+
+}
+
+.tab-content-container {
+  height: 100%; /* Adjusted to ensure it calculates properly */
+  overflow: auto; /* Enable vertical scrolling if content overflows */
+  padding: 1rem; /* Optional padding */
+}
+
+.sidecar .p-tabview-nav-prev,
+.sidecar .p-tabview-nav-next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  z-index: 5; /* Make sure the arrows are clickable and above other elements */
+  padding-bottom: 8px;
+}
